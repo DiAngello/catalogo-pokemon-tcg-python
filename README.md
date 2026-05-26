@@ -12,9 +12,10 @@
     Aplicação desktop para organizar cartas de Pokémon TCG em fichários personalizados.
     <br /></p>
 </div>
- 
+
 <p align="center">
   <img src="https://forthebadge.com/images/badges/built-with-love.svg" alt="Built with Love">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux Compatible">
 </p>
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -29,7 +30,6 @@
     <li>
       <a href="#getting-started">Como iniciar</a>
       <ul>
-        <li><a href="#prerequisites">Pré-requisitos</a></li>
         <li><a href="#installation">Instalação</a></li>
       </ul>
     </li>
@@ -45,8 +45,7 @@ Aplicação desktop feita em Python com PyQt6 para organização de cartas de Po
 
 O sistema permite:
 
-- Criar fichários personalizados  
-- Utilizar fichários oficiais automaticamente (AUTO)  
+- Criar fichários personalizados 
 - Adicionar, editar e remover cartas  
 - Visualizar cartas em formato de grade (3x3)  
 - Alternar entre diferentes fichários  
@@ -62,8 +61,7 @@ A interface simula um fichário real, com separação entre abas e páginas de c
 - Python 3  
 - PyQt6  
 - SQLite  
-- Requests  
-- Arquitetura modular (UI, Services, Repositories)  
+- Requests 
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
@@ -77,7 +75,14 @@ A interface simula um fichário real, com separação entre abas e páginas de c
 
 2. Baixe o arquivo `.zip` mais recente
 
-3. Execute o aplicativo
+3. Abra o terminal na pasta onde você extraiu e dê permissão de execução ao binário:
+   ```sh
+   chmod +x app
+   ```
+4. Execute o aplicativo:
+     ```sh
+   ./app
+   ```
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
