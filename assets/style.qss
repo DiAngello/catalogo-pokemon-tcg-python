@@ -1,0 +1,73 @@
+#app {
+    background: #1E1B2E;
+}
+
+/* página */
+#page {
+    background: #26233A;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+/* título */
+#title {
+    color: #E0DEF4;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* slots */
+#slotEmpty {
+    border: 2px dashed #6E6A86;
+    border-radius: 12px;
+}
+
+#btnAdd {
+    font-size: 24px;
+    color: #6E6A86;
+    background: transparent;
+    border: none;
+}
+
+#slotFilled {
+    background: #2A273F;
+    border: 1px solid #6E6A86;
+    border-radius: 12px;
+}
+
+/* texto */
+#cardName {
+    color: #E0DEF4;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+/* badge */
+#badge {
+    background: #EB6F92;
+    color: white;
+    font-size: 9px;
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+
+/* botão editar */
+#btnEdit {
+    background: #EB6F92;
+    color: white;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+QPushButton:hover {
+    background: #F083A2;
+}
+
+QPushButton {
+    border-radius: 6px;
+}
+
+QPushButton[text="Remover aba"] {
+    background: #EB6F92;
+    color: white;
+}
