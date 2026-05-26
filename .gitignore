@@ -1,10 +1,7 @@
-# ambiente virtual
 venv/
 __pycache__/
 *.pyc
-
-# banco de dados
-*.db
-
-# arquivos do sistema
-.DS_Store
+dist/
+build/
+*.spec
+pokemon_tcg.db
