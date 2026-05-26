@@ -75,7 +75,7 @@ A interface simula um fichário real, com separação entre abas e páginas de c
 1. Acesse a página de releases:
    https://github.com/DiAngello/catalogo-pokemon-tcg-python/releases
 
-2. Baixe o arquivo `.exe` mais recente
+2. Baixe o arquivo `.zip` mais recente
 
 3. Execute o aplicativo
 
